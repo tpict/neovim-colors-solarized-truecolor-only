@@ -867,6 +867,27 @@ exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
 "}}}
+" neomake highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! NeomakeErrorSign"          .s:fg_orange   .s:bg_base02   .s:fmt_none
+exe "hi! NeomakeWarningSign"        .s:fg_yellow   .s:bg_base02   .s:fmt_none
+exe "hi! NeomakeMessageSign"        .s:fg_cyan     .s:bg_base02   .s:fmt_none
+exe "hi! NeomakeInfoSign"    .s:fg_cyan    .s:bg_base02   .s:fmt_none
+
+"}}}
+" gitgutter highlighting "{{{
+" ---------------------------------------------------------------------
+hi! link GitGutterAdd DiffAdd
+hi! link GitGutterChange DiffChange
+hi! link GitGutterDelete DiffDelete
+hi! link GitGutterChangeDelete DiffChange
+
+"}}}
+" sneak highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! Sneak"                          .s:fg_base03 .s:bg_magenta
+
+"}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
 " In cases where Solarized is initialized inside a terminal vim session and 
