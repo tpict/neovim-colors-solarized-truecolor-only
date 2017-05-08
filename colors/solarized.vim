@@ -872,7 +872,13 @@ hi! link pandocMetadataTitle             pandocMetadata
 exe "hi! NeomakeErrorSign"          .s:fg_orange   .s:bg_base02   .s:fmt_none
 exe "hi! NeomakeWarningSign"        .s:fg_yellow   .s:bg_base02   .s:fmt_none
 exe "hi! NeomakeMessageSign"        .s:fg_cyan     .s:bg_base02   .s:fmt_none
-exe "hi! NeomakeInfoSign"    .s:fg_cyan    .s:bg_base02   .s:fmt_none
+exe "hi! NeomakeInfoSign"           .s:fg_cyan    .s:bg_base02   .s:fmt_none
+
+"}}}
+" ALE highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! ALEErrorSign"          .s:fg_red      .s:bg_base02   .s:fmt_bold
+exe "hi! ALEWarningSign"        .s:fg_yellow   .s:bg_base02   .s:fmt_bold
 
 "}}}
 " gitgutter highlighting "{{{
